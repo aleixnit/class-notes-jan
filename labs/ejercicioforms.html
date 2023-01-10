@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+        * {
+            font-family: "Ubuntu";
+        }
+
+        .formulario {
+            background-color: coral;
+        }
+
+        .name {
+            font-size: 40px;
+        }
+
+        #age {
+            margin: 24px;
+        }
+    </style>
+</head>
+<form class="formulario">
+    <label for="nameUser" class="name">Nombre del Usuario</label>
+    <input type="text" id="nameUser" name="nameUser" /><br>
+    <label for="age" id="age">Rango de edad</label>
+    <input type="number" name="age" min="1" max="18" /> <br>
+
+    <textarea type="textarea" id="message" placeholder="Escriba aquí tus grupos" rows="10" cols="30"></textarea>
+    <label for="bands">Choose a band:</label><br />
+    <select id="bands" name="bands">
+        <option value="wutangclan">Wutang Clan</option>
+        <option value="theDoors">Gangstar</option>
+        <option value="theBeatles">Mde click</option>
+        <option value="fleetwoodMac">Notorius Big</option>
+    </select> <br>
+    <input type="submit" onclick="alert('¡Hola!')" name="button" value="Click me">
+</form>
+
+<body>
+
+</body>
+
+</html>
