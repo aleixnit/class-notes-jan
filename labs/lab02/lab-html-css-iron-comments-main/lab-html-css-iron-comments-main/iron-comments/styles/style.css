@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    width: 100vw;
+    background-color: black;
+
+
+}
+
+.formulario {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0.8em;
+    padding: 40px 60px 40px 20px;
+    border: 2px solid rgb(59, 190, 241);
+    font-weight: bold;
+}
+
+#comentario {
+    height: 200px;
+}
+
+#button {
+    width: 60px;
+    background-color: rgb(59, 190, 241);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
