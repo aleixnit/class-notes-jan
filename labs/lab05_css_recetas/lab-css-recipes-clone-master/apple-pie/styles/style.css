@@ -1,0 +1,32 @@
+img {
+    display: block;
+    margin: auto;
+  }
+
+  main {
+    background-image: url(../images/apple-pie.jpg);
+    color: white;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+  }
+
+  .text {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  hr {
+    border: 1px solid black;
+    width: 80vw;
+  }
+
+ul {
+    list-style: none;
+}
+
