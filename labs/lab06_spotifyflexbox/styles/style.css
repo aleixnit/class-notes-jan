@@ -37,7 +37,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    height: 800px;
+    height: 1000px;
     display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -69,7 +69,6 @@ section h2 {
 }
 
 .container3 {
-    /* outline: 1px red solid; */
     display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -128,13 +127,6 @@ h3 {
     padding: 100px;
     width: auto;
 }
-
-/* .linea2 {
-    width: 400px;
-    border: 2px solid #fafafa;
-    margin-bottom: 50px;
-    padding-left: 170px;
-} */
 
 .text h5 {
     padding-left: 170px;
