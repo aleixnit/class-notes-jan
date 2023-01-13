@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ******ENCABEZADO*********** */
+.container {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fafafa;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header-bar li {
+    display: inline-block;
+    padding: 20px 50px 15px 0px;
+    font-size: 15px;
+}
+/* *************SECCIÓN 1************************ */
+.container2 {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 800px;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+}
+
+.container2 h1 {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+main p {
+   margin: 0px;
+   line-height: 1.5;
+   font-size: 25px; 
+}
+/* *************SECCIÓN 2*************** */
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 50px;  
+}
+
+.linea1 {
+    width: 300px;
+    border: 2px solid #00B172;
+    margin-bottom: 30px
+}
+
+.container3 {
+    /* outline: 1px red solid; */
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.container3 p {
+    margin-bottom: 0px;
+    margin-top: 0px
+}
+
+.box1 {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box2 {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box3 {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+section img {
+    width: 200px;
+}
+
+h3 {
+    color: #00B172;
+    font-size: 25px;
+}
+/* *************** SECCION 3*********************** */
+.container4 {
+    height: 800px;
+    background-clip: content-box;
+    background-color:#00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    display: flex;
+	justify-content: space-between;
+    padding: 70px 70px 0px 70px;
+    color: #fafafa;
+}
+
+.container4 img{
+    padding: 100px;
+    width: auto;
+}
+
+/* .linea2 {
+    width: 400px;
+    border: 2px solid #fafafa;
+    margin-bottom: 50px;
+    padding-left: 170px;
+} */
+
+.text h5 {
+    padding-left: 170px;
+    font-size: 30px;
+    margin: 0px
+}
+
+.text p {
+    padding-left: 170px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.text h4 {
+    font-size: 30px;
+    padding-left: 170px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
