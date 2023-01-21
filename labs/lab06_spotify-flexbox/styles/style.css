@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
 /* ******ENCABEZADO*********** */
 .container {
     height: 100px;
@@ -22,8 +24,8 @@ body {
 .header {
     height: 100px;
     display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header-bar li {
@@ -31,6 +33,7 @@ body {
     padding: 20px 50px 15px 0px;
     font-size: 15px;
 }
+
 /* *************SECCIÓN 1************************ */
 .container2 {
     background-image: url(../images/landing.jpg);
@@ -39,9 +42,9 @@ body {
     color: white;
     height: 1000px;
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
     justify-content: center;
-	align-items: center;
+    align-items: center;
 }
 
 .container2 h1 {
@@ -50,16 +53,17 @@ body {
 }
 
 main p {
-   margin: 0px;
-   line-height: 1.5;
-   font-size: 25px; 
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 25px;
 }
+
 /* *************SECCIÓN 2*************** */
 section h2 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 0;
-    margin-top: 50px;  
+    margin-top: 50px;
 }
 
 .linea1 {
@@ -70,8 +74,8 @@ section h2 {
 
 .container3 {
     display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .container3 p {
@@ -81,23 +85,23 @@ section h2 {
 
 .box1 {
     display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .box2 {
     display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .box3 {
     display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 section img {
@@ -108,22 +112,23 @@ h3 {
     color: #00B172;
     font-size: 25px;
 }
+
 /* *************** SECCION 3*********************** */
 .container4 {
     height: 800px;
     background-clip: content-box;
-    background-color:#00B172;
+    background-color: #00B172;
     background-image: url(../images/spotify-icon-white.png);
     background-position: center;
     background-size: 200px 200px;
     background-repeat: no-repeat;
     display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
     padding: 70px 70px 0px 70px;
     color: #fafafa;
 }
 
-.container4 img{
+.container4 img {
     padding: 100px;
     width: auto;
 }
