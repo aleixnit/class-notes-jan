@@ -50,3 +50,6 @@ console.log(newElement);
 // 2º - Crea un <div id="nested"></div> desde código
 // let div = document.createElement("div");
 // div.setAttribute {"id", "nested"};
+
+
+

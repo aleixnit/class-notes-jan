@@ -256,3 +256,4 @@ console.log("Ikerne");
 console.log(
   personalInfo2("Martina", 42, { livesInCity: true, livesInTown: true })
 );
+

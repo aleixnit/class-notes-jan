@@ -5,10 +5,10 @@
 // 1.3 Crear una variable hacker2con el nombre del navegador.
 // 1.4 Imprimir "The navigator's name is YYYY".
 
-const hacker1 = "The driver last name is Aleix";
+const hacker1 = "The driver last name is Aguilar";
 console.log(hacker1);
 
-const hacker2 = "The driver first name is Aguilar";
+const hacker2 = "The driver first name is Aleix";
 console.log(hacker2);
 
 //*********************************************************************** */
@@ -99,7 +99,7 @@ console.log(usingSplitMethod);
 
 // Nombramos una nueva variable que concatena split con join/ join une los elementos de una array en una cadena. y metemos el espacio entre medio o lo que queramos.
 console.log("Iteration 003 - Using Native Methods ");
-const updatedNewName = usingSplitMethod.join(" ").toUpperCase();
+const updatedNewName = usingSplitMethod.join("  ").toUpperCase();
 console.log(updatedNewName);
 
 //************************************************************************************** */
